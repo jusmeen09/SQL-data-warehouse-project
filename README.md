@@ -33,7 +33,7 @@ Develop a modern data warehouse using PostgreSQL to consolidate sales data, enab
 ----
 
 
-##BI:Analytics  & Reporting (Data Analytics )
+## BI:Analytics  & Reporting (Data Analytics )
 
 #### Objectives
 Develop SQL-based analytics to deliver detailed insights into:
