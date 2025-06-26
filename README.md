@@ -4,8 +4,20 @@ Welcome to the ** Data Warehouse and Analytics project** repository
 This project showcases a comprehensive data warehousing and analytics solution, spanning the development of a data warehouse to the generation of actionable insights. Designed as a portfolio project, highlights industry best practices in data engineering and analytics. 
 
 ---
+# DATA ARCHITECTURE
+The data architecture for this project follows Medallion architecture: Bronze, Silver, and Gold layers
+1. Bronze layer: Stores raw data as-is from the source systems. Data is ingested from CSV Files into a PostgreSQL Server database
+2. Silver layer: This layer includes data cleaning, standardization, and normalization processes to prepare data for analysis.
+3. Gold layer: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
-Project requirements
+
+# PROJECT OVERVIEW
+This project involves:
+1. Data Architecture: Designing a modern data warehouse using medallion architecture, bronze, silver, and gold layers.
+2. ETL pipelines: Extracting, transforming, and loading data from the  source system into the warehouse.
+3. Data modeling: Developing fact and dimension tables optimized for analytical queries.
+4. Analytical & Reporting: Creating SQL-based reports and dashboards for actionable insights.
+# Project requirements
 
 ### Building the data warehouse (data engineering)
 ### Objective
