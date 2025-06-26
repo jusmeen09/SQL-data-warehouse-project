@@ -1,4 +1,19 @@
+/*
+=============================================================
+Quality checks
+=============================================================
+Script purpose:
+     This script performs various quality checks for data consistency, accuracy of the gold layer .
+      It include checks for:
+    -Uniqueness of surrogate keys in dimension tables.
+    - Referential integrity between fact and dimension tables.
+    - Validation of relationships in the data model for analytical purposes.
 
+Usage notes:
+    -Run these checks after data loading into gold layer.
+    -Investigate and resolve any discrepancies found during the checks.
+=======================================================================
+*/
 
 
 
